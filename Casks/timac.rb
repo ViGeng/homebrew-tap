@@ -1,6 +1,6 @@
 cask "timac" do
-  version "1.0.2"
-  sha256 "d1c2673ff49e4cfa7804afa892606b9c895bd381e0cd997c19c558e528931025"
+  version "1.0.3"
+  sha256 "343eb8e3a9629c97d51b40fbbd655a93ead34ca4491097603a9271871ddd362b"
 
   url "https://github.com/ViGeng/Timac/releases/download/v#{version}/Timac.dmg"
   name "Timac"
@@ -18,7 +18,6 @@ cask "timac" do
   end
 
   zap trash: [
-    "~/Library/Application Support/Timac",
     "~/Library/Preferences/com.timac.Timac.plist",
     "~/Library/Saved Application State/com.timac.Timac.savedState",
   ]
