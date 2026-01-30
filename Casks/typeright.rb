@@ -1,7 +1,7 @@
 cask "typeright" do
-  version "0.1.3"
-  sha256 "85cd9e68806487e0bbc42773012e27e86477293cf4f47446ec3a0a7b6a9c80bf"
-  url "https://github.com/ViGeng/TypeRight/releases/download/v0.1.3/TypeRight.zip"
+  version "0.1.4"
+  sha256 "235a3474bcdef563259a080b15618a2da75c50893311ebd6647a262870dbbda5"
+  url "https://github.com/ViGeng/TypeRight/releases/download/v0.1.4/TypeRight.zip"
   name "TypeRight"
   desc "Menu bar app to track backspace ratio and improve typing efficiency"
   homepage "https://github.com/ViGeng/TypeRight"
