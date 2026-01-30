@@ -1,22 +1,11 @@
-# Homebrew Cask for Timac
-#
-# To create your own tap:
-# 1. Create a new GitHub repo named "homebrew-tap" 
-# 2. Add this file as Casks/timac.rb
-# 3. Update the URL and SHA256 after each release
-#
-# Users can then install with:
-#   brew tap vigeng/tap
-#   brew install --cask timac
-
 cask "timac" do
-  version "1.0.0"
-  sha256 "REPLACE_WITH_SHA256_OF_DMG"
+  version "1.0.2"
+  sha256 "d1c2673ff49e4cfa7804afa892606b9c895bd381e0cd997c19c558e528931025"
 
-  url "https://github.com/vigeng/Timac/releases/download/v#{version}/Timac.dmg"
+  url "https://github.com/ViGeng/Timac/releases/download/v#{version}/Timac.dmg"
   name "Timac"
   desc "Menu bar app for tracking time spent on applications"
-  homepage "https://github.com/vigeng/Timac"
+  homepage "https://github.com/ViGeng/Timac"
 
   depends_on macos: ">= :ventura"
 
