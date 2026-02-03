@@ -1,6 +1,6 @@
 cask "timac" do
-  version "1.0.3"
-  sha256 "343eb8e3a9629c97d51b40fbbd655a93ead34ca4491097603a9271871ddd362b"
+  version "1.1.1"
+  sha256 "467a07092e6fcc7ef33897514c3b3566ba5d4f45340b0eaf4d91d5a3820fa9cd"
 
   url "https://github.com/ViGeng/Timac/releases/download/v#{version}/Timac.dmg"
   name "Timac"
