@@ -1,8 +1,8 @@
 cask "flow" do
-  version "1.1.7"
-  sha256 "1d3fadf5bc28d0ecfc9549b408326f67e1e1ed045a1b73ee888558adc1d80163"
+  version "1.3.0"
+  sha256 "0c455ea98b0ff6477a3693784110981663bf002f08aaa0bf30fbef92833284ba"
 
-  url "https://github.com/ViGeng/flow/releases/download/v1.1.7/Flow-1.1.7.dmg"
+  url "https://github.com/ViGeng/flow/releases/download/v1.3.0/Flow-1.3.0.dmg"
   name "Flow"
   desc "Event-driven task manager backed by a recursive Markdown tree"
   homepage "https://github.com/ViGeng/flow"
