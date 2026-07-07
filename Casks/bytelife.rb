@@ -1,6 +1,6 @@
 cask "bytelife" do
-  version "0.7.0"
-  sha256 "354c2daad7524710cef715249848d449c5d7edd93b8b5a933aaaf7dad86e0493"
+  version "0.8.0"
+  sha256 "43e3409686558d40d53f8554ba82bcbccf9892f3419e510b46f9e5a91ded507f"
 
   url "https://github.com/ViGeng/homebrew-tap/releases/download/bytelife-v#{version}/ByteLife-#{version}.zip"
   name "ByteLife"
