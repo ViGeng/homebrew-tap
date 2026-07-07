@@ -7,7 +7,7 @@ cask "bytelife" do
   desc "Menu bar dashboard tracking your digital life in bytes"
   homepage "https://github.com/ViGeng/byteslife"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ByteLife.app"
 
