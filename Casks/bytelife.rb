@@ -1,8 +1,8 @@
 cask "bytelife" do
-  version "0.8.0"
-  sha256 "43e3409686558d40d53f8554ba82bcbccf9892f3419e510b46f9e5a91ded507f"
+  version "0.8.1"
+  sha256 "e051051d81c57554bed9cba6566bed686e4f323cea1752beed1a27d468fc18f1"
 
-  url "https://github.com/ViGeng/homebrew-tap/releases/download/bytelife-v#{version}/ByteLife-#{version}.zip"
+  url "https://github.com/ViGeng/byteslife/releases/download/v#{version}/ByteLife-#{version}.zip"
   name "ByteLife"
   desc "Menu bar dashboard tracking your digital life in bytes"
   homepage "https://github.com/ViGeng/byteslife"
