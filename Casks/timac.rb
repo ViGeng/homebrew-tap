@@ -7,7 +7,7 @@ cask "timac" do
   desc "Menu bar app for tracking time spent on applications"
   homepage "https://github.com/ViGeng/Timac"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Timac.app"
 

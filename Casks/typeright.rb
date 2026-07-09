@@ -5,7 +5,7 @@ cask "typeright" do
   name "TypeRight"
   desc "Menu bar app to track backspace ratio and improve typing efficiency"
   homepage "https://github.com/ViGeng/TypeRight"
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   app "TypeRight.app"
   postflight do
     system_command "/usr/bin/xattr", args: ["-cr", staged_path.to_s]
