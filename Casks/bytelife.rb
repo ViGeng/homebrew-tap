@@ -1,6 +1,6 @@
 cask "bytelife" do
-  version "0.8.1"
-  sha256 "e051051d81c57554bed9cba6566bed686e4f323cea1752beed1a27d468fc18f1"
+  version "0.9.1"
+  sha256 "844ef982a3c475c730d4534e5f6e2cf13dcd1bd2b8e25f1c5bf768b9b31a0040"
 
   url "https://github.com/ViGeng/byteslife/releases/download/v#{version}/ByteLife-#{version}.zip"
   name "ByteLife"
